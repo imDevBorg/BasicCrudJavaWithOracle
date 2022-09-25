@@ -26,7 +26,8 @@ public class BasicCrudJavaWithOracle {
             for(Object object : personaDao.findAll()){
                 Persona personaObj = (Persona) object;
                 System.out.println(personaObj.toString());
-            }*/
+            }
+            */
             
             
         } catch (GlobalException ex) {
